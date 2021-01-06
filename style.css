@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.navbar{
+    float: right;
+    margin-top: 35px;
+    margin-right: 100px;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.half-section{
+    width: 35%;
+    float: left;
+    margin: 3%;
+    padding: 1%;
+}
+section{
+    height: 400px;
+    padding-bottom: 100px;
+}
+.half-section img{
+    width: 75%;
+}
+
+.bottom-section{
+    height: 1000px;
+    
+    
+}
+.working{
+    height: 400px;
+    background-color: #f3ebeb;
+    padding-bottom: 50px;
+}
+.pic{
+    background-color: white;
+    width: 25%;
+    float: left;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 10px gray;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.pic img{
+    height: 250px;
+    width: 340px;
+
+}
+.main-div{
+    height: 120px;
+    width: 60%;
+    background-image: url("images/Group_33094_1.png");
+    background-size: 900px 120px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  
+}
+.child-div{
+    padding-bottom: 20px;
+    float: left;
+}
+.child-2{
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 60px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
