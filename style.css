@@ -1,7 +1,21 @@
 *{
     margin: 0;
     padding: 0;
- 
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Philosopher', sans-serif;
+}
+p{
+    font-size: 15px;
+    font-weight: 10;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar{
     float: right;
@@ -15,14 +29,29 @@
     margin-right: 20px;
     margin-top: 10px;
 }
+
+.name-highlight{
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif;
+    color: tomato; 
+    font-weight: 700;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
 .half-section{
     width: 35%;
     float: left;
-    margin: 3%;
+    margin: 5.5%;
     padding: 1%;
 }
 section{
-    height: 400px;
+    height: 450px;
     padding-bottom: 100px;
 }
 .half-section img{
@@ -35,11 +64,21 @@ section{
     
 }
 .working{
-    height: 400px;
+    height: 500px;
     background-color: #f3ebeb;
-    padding-bottom: 50px;
+    border: 1px solid  #f3ebeb;
+
 }
-.pic{
+#center-working-area{
+text-align: center;
+}
+#highlight{
+    color: tomato;
+}
+.working h1{
+    padding-top: 35px;
+}
+.working-peoject{
     background-color: white;
     width: 25%;
     float: left;
@@ -48,35 +87,43 @@ section{
     margin: 3%;
     padding: 1%;
     border-radius: 10px;
+    height: 350px;
+    overflow: hidden;
 }
-.pic img{
+.working-peoject img{
     height: 250px;
     width: 340px;
 
 }
 .main-div{
-    height: 120px;
-    width: 60%;
+    height: 250px;
+    width: 70%;
     background-image: url("images/Group_33094_1.png");
-    background-size: 900px 120px;
+    background-size: 800px 200px;
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  
   
 }
 .child-div{
-    padding-bottom: 20px;
+ 
     float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: white;
+    position: absolute;
 }
 .child-2{
-    width: 200px;
-    height: 50px;
+   
     float: right;
-    margin-right: 25px;
-    margin-top: 60px;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    text-align: center;
+    margin-right: 120px;
+    margin-top: 115px;
+    position: absolate;
+   
 }
+
+   
