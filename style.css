@@ -55,7 +55,7 @@ p{
 }
 section{
     height: 450px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .half-section img{
     width: 75%;
@@ -112,6 +112,12 @@ text-align: center;
   
   
 }
+.chating-section{
+    height: 300px;
+    
+   
+  
+}
 .child-div{
  
     float: left;
@@ -126,7 +132,39 @@ text-align: center;
     margin-right: 120px;
     margin-top: 115px;
     position: absolate;
-   
 }
+.center{
+    background-color: #2f2f2f;
+    height: 500px;
+    position: relative;
+}
+.contact-me{
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 260px;
+ 
+}
+.contact-me input{
+    width: 800px;
+    height: 100px;
+}
+#highlight-sentence{
+    color: white;
+}
+#submit{
+    width: 800px;
+    height: 25px;
+    color: blue;
+    font-weight: 700;
+    
+}
+footer{
+    background-color: #2f2f2f;
 
-   
+}
+#footer-highlight{
+    text-align: center;
+    color: seashell;
+}
