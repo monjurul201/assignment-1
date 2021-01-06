@@ -135,7 +135,7 @@ text-align: center;
 }
 .center{
     background-color: #2f2f2f;
-    height: 400px;
+    height: 450px;
     position: relative;
 }
 .contact-me{
@@ -147,21 +147,39 @@ text-align: center;
  
 }
 .contact-me input{
+    background-color: rgb(250, 234, 234);
     width: 800px;
     height: 100px;
+    border-radius: 10px;
+}
+#contact{
+    text-align: center;
+    color: white;
+}
+.email-password{
+    color: white;
+}
+#email{
+    width: 800px;
+    height: 20px;
+}
+#password{
+    width: 800px;
+    height: 20px;
 }
 #highlight-sentence{
     color: white;
 }
-#submit{
-    width: 800px;
-    height: 25px;
-    color: blue;
-    font-weight: 700;
-    
+.contact-me button{
+    background-color: rgb(250, 234, 234);
+    float: right;
+    width: 120px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 #footer-highlight{
     text-align: center;
-    color: rgba(255, 0, 200, 0.993);
+    color: rgb(228, 7, 44);
 }
